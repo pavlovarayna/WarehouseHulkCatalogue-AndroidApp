@@ -11,7 +11,8 @@ The created warehouse app includes menu with items:
 - contacts - contact information with mail form
 
 
-Class diagram of your types –
+Class diagram –
+
 
 
 
