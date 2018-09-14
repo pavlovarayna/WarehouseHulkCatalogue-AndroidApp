@@ -14,6 +14,14 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
+        <android.support.v7.widget.Toolbar
+        android:id="@+id/drawer_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+
+
+
         <TextView
             android:id="@+id/tv_contactinfo"
             android:layout_width="wrap_content"
@@ -23,7 +31,8 @@
             android:layout_marginTop="13dp"
             android:text="@string/contactinfo"
             android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_below="@id/drawer_toolbar"/>
 
         <TextView
             android:id="@+id/tv_address"

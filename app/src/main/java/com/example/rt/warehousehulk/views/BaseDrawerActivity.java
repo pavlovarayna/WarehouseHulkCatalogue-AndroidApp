@@ -6,7 +6,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.example.rt.warehousehulk.views.contacts.ContactsActivity;
-import com.example.rt.warehousehulk.views.products.ProductListActivity;
+import com.example.rt.warehousehulk.views.products.ProductActivity;
 import com.example.rt.warehousehulk.views.promotions.PromotionActivity;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
@@ -23,7 +23,7 @@ public abstract class BaseDrawerActivity extends AppCompatActivity{
                 .withIdentifier(MainActivity.IDENTIFIER)
                 .withName("Main Page");
         PrimaryDrawerItem listProductItem = new PrimaryDrawerItem()
-                .withIdentifier(ProductListActivity.IDENTIFIER)
+                .withIdentifier(ProductActivity.IDENTIFIER)
                 .withName("Products Catalogue");
         PrimaryDrawerItem promotionItem = new PrimaryDrawerItem()
                 .withIdentifier(PromotionActivity.IDENTIFIER)
@@ -73,9 +73,9 @@ public abstract class BaseDrawerActivity extends AppCompatActivity{
             return  new Intent(
                     BaseDrawerActivity.this, MainActivity.class
             );
-        } else if (identifier == ProductListActivity.IDENTIFIER) {
+        } else if (identifier == ProductActivity.IDENTIFIER) {
             return  new Intent(
-                    BaseDrawerActivity.this, ProductListActivity.class
+                    BaseDrawerActivity.this, ProductActivity.class
             );
         } else if (identifier == PromotionActivity.IDENTIFIER) {
             return  new Intent(

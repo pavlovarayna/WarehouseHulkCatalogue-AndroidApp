@@ -27,5 +27,8 @@
     <string name="drinkslist_title">Drinks list</string>
     <string name="drinks_description">drinks_description</string>
     <string name="produt_details">product_details</string>
+    <string name="domestic_goods">Domestic goods</string>
+    <string name="food_description">food_description</string>
+    <string name="domestic_description">domestic_description</string>
 
 </resources>

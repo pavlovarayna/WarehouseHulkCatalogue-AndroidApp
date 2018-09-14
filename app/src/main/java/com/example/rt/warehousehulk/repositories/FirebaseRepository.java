@@ -1,7 +1,8 @@
 package com.example.rt.warehousehulk.repositories;
 
+import com.example.rt.warehousehulk.repositories.base.Repository;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.pavlovarayna.warehousehulkapplication.repositories.base.Repository;
+
 
 import java.util.List;
 import java.util.function.Consumer;

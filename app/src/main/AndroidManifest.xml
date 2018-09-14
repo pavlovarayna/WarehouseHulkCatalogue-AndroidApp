@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.rt.warehousehulk">
 
     <application
+        android:name=".views.AndroidApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,10 +21,19 @@
         <activity android:name=".views.contacts.ContactsActivity" />
         <activity android:name=".views.contacts.EmailActivity" />
         <activity android:name=".views.promotions.PromotionActivity" />
-        <activity android:name=".views.products.ProductListActivity" />
-        <activity android:name=".views.products.DrinksListActivity" />
-        <activity android:name=".views.products.FoodLisActivity" />
-        <activity android:name=".views.products.DomesticsListActivity"></activity>
+        <activity android:name=".views.products.ProductActivity"/>
+        <activity android:name=".views.products.Drinks.DrinksListActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".views.products.Drinks.DrinksDetailsActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".views.products.Food.FoodListActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".views.products.Domestics.DomesticListActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".views.products.Food.FoodDetailsActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".views.products.Domestics.DomesticDetailsActivity"
+            tools:ignore="InnerclassSeparator" />
     </application>
 
 </manifest>
